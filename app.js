@@ -2,7 +2,7 @@ const express = require("express"),
     textToImage = require("text-to-image"),
     requestIp = require("request-ip");
 const app = express();
-const port = 7778;
+const port = process.env.PORT ?? 3000;
 
 app.use(requestIp.mw());
 

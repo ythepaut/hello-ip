@@ -4,12 +4,13 @@
   "description": "Displays your IP address in an image",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Yohann THEPAUT <contact@ythepaut.com> (ythepaut)",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "express": "^4.17.1",
+    "request-ip": "^3.3.0",
     "text-to-image": "^2.4.4"
   }
 }
